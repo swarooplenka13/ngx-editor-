@@ -44,6 +44,6 @@ export class AppComponent implements OnInit, OnDestroy {
     this.editor.destroy();
   }
   post(){
-    
+    console.log(this.form.value);
   }
 }
